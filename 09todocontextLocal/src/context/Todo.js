@@ -5,7 +5,7 @@ export const TodoContext = createContext({
         {
             id: 1,
             todo: "Todo msg",
-            complete: false,
+            completed: false,
         }
     ],
     addTodo: (todo) => {},
@@ -18,4 +18,4 @@ export const useTodo = () =>{
     return useContext(TodoContext);
 }
 
-export const Todoprovider = TodoContext.Provider;
+export const TodoProvider = TodoContext.Provider;
