@@ -7,5 +7,6 @@ import RTE from "./RTE";
 import Button from "./Button";
 import Input from "./Input";
 import Select from "./Select";
+import Signup from "./Signup";
 
-export { Header, Footer, Container, Logo, LogoutBtn, RTE, Button, Input, Select };
+export { Header, Footer, Container, Logo, LogoutBtn, RTE, Button, Input, Select, Signup };
