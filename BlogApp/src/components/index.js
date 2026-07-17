@@ -8,5 +8,6 @@ import Button from "./Button";
 import Input from "./Input";
 import Select from "./Select";
 import Signup from "./Signup";
+import PostFrom from "./post-form/PostForm";
 
-export { Header, Footer, Container, Logo, LogoutBtn, RTE, Button, Input, Select, Signup };
+export { Header, Footer, Container, Logo, LogoutBtn, RTE, Button, Input, Select, Signup, PostFrom };
