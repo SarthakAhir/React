@@ -2,11 +2,11 @@ import conf from '../conf/conf.js';
 import { Client, ID, Databases, Storage, Query } from "appwrite";
 
 export class Service{
-    Client = new Client();
+    client = new Client();
     databases;
     bucket;
 
-    Constructor(){
+    constructor(){
         this.client
                 .setEndpoint(conf.appwriteUrl)
                 .setProject(conf.appwriteProjectId);
@@ -60,7 +60,7 @@ export class Service{
                 conf.appwriteDatabaseId,
                 conf.appwriteCollectionId,
                 slug
-            )
+            );
             return true;
 
         }catch(error){
