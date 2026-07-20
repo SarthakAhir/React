@@ -1,4 +1,4 @@
-import {Container , PostFrom} from "../components/index"
+import {Container , PostFrom} from "../components"
 
 function AddPost() {
   return (
