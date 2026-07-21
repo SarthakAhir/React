@@ -8,7 +8,7 @@ import Button from "./Button";
 import Input from "./Input";
 import Select from "./Select";
 import Signup from "./Signup";
-import PostFrom from "./post-form/PostForm";
+import PostForm from "./post-form/PostForm";
 import PostCard from "./PostCard" 
 import AuthLayout from "./AuthLayout";
 import Login from "./Login";
@@ -24,7 +24,7 @@ export {
         Input, 
         Select, 
         Signup, 
-        PostFrom,
+        PostForm,
         PostCard,
         AuthLayout,
         Login
